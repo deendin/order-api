@@ -12,8 +12,8 @@ Provided that we have an XML file that contains orders and its products, the fol
 To manage orders, this solution exposes three API endpoints which helps in managing the basic requirement of the problem statement:
 
 - [x] `/orders` - `GET`
-- [x] `/order/id` - `GET`
-- [x] `/order/` - `PUT`
+- [x] `/order/:id` - `GET`
+- [x] `/order/:id` - `PUT`
 
 1. Orders: `/orders` - To fetch all orders, a `GET` request is expected to be made to the orders endpoint which is simply a Rest API that returns a JSON response of all of the orders and products in the XML file. The below screenshot represents what the request and response data looks like when tested in postman.
 
