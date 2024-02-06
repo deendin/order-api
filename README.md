@@ -50,7 +50,14 @@ Before setting up this repository, the following are the dependencies that needs
 4. Run `composer install` to install the project dependencies.
 5. In the `order-api` directory run `php -S localhost:8000` to start the application.
 
-## Instruction and testing for the frontend:
+## Testing:
+
+To test the behaviour of the endpoint without necessarily going via the postman, I have put a basic testing in place (using `PHPUnit`) and the steps below can be used to run the test:
+
+1. In the project folder (`order-api`), run `vendor/bin/phpunit tests/XmlOrderRepositoryTest.php`
+2. The command above will run all of the methods in the class which are essentially ensuring that we are able to get all orders, get a single order and then update a specific order.
+
+## Instruction and testing for the frontend / API:
 
 1. Navigate to the served url `http://localhost:8000/orders` or `http://localhost:{port}/orders` as the case may be.
 2. You should automatically see the orders response in the browser since this is GET request. A postman may be required to interact with the ammendment (`PUT`) endpoint
