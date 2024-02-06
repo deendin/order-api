@@ -3,7 +3,6 @@
 namespace App\Models;
 
 class Order {
-    
     public $id;
     public $currency;
     public $date;
