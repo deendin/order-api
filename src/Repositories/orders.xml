@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+    <order>
+        <id>1</id>
+        <currency>USD</currency>
+        <date>01/01/2016</date>
+        <products>
+            
+            
+        <product title="New Product Title" price="10.99"/></products>
+        <total>9.98</total>
+    </order>
+    <order>
+        <id>2</id>
+        <currency>NGN</currency>
+        <date>02/01/2016</date>
+        <products>
+            
+            
+        <product title="Olobe" price="10.99"/><product title="Another Product" price="20.99"/></products>
+        <total>119.98</total>
+    </order>
+</orders>
